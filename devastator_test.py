@@ -8,10 +8,10 @@ import time
 
 # Set numbering mode and define output pins
 G.setmode(G.BOARD)
-G.setup(7,  G.OUT) # 
-G.setup(11, G.OUT)
-G.setup(13, G.OUT)
-G.setup(15, G.OUT)
+G.setup(7,  G.OUT) # Right Backward
+G.setup(11, G.OUT) # Right Forward
+G.setup(13, G.OUT) # Left Forward
+G.setup(15, G.OUT) # Left Backward
 G.setup(29, G.OUT)
 
 for x in range(1, 4):
